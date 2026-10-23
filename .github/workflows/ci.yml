@@ -1,20 +1,28 @@
-# Kiểm tra phần thuật toán Python khi mở Pull Request hoặc push main.
-# CI kiểm tra Python và cấu trúc mạng; test tích hợp tự bỏ qua nếu runner chưa cài SUMO.
+# Kiểm tra Python khi push main hoặc mở Pull Request vào main.
+# File nhu cầu/kịch bản GĐ4 được sinh tự động và không lưu trong Git.
+# Vì vậy phải tạo chúng trước khi chạy unittest trên GitHub Actions.
 name: Python unit tests
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
 jobs:
   unittest:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Build Stage 4 scenarios
+        run: python scripts/build_scenarios.py
+
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
