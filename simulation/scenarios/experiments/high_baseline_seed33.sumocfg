@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+  <input>
+    <net-file value="../../network/generated/corridor.net.xml" />
+    <route-files value="../../routes/generated/stage4/high_seed33.rou.xml" />
+    <additional-files value="../../signals/baseline.add.xml" />
+  </input>
+  <time>
+    <begin value="0" />
+    <end value="7500" />
+    <step-length value="1" />
+  </time>
+  <processing>
+    <time-to-teleport value="-1" />
+    <max-depart-delay value="-1" />
+  </processing>
+  <random_number>
+    <seed value="33" />
+  </random_number>
+</configuration>

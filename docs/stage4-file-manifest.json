@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "source_branch": "feature/stage3-greenwave",
+  "source_commit": "8089d6f282b3a99647b7aeb2ca099eb8c150b58f",
+  "acceptance": "FUNCTIONAL_SCENARIOS_VERIFIED_WITH_HIGH_CAPACITY_LIMIT",
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "role_vi": "Ghép thêm mục Giai đoạn 4, giữ thông tin cũ",
+      "base_sha256": "f8679174f9318d38ea20a5953e13b1bdd95e95f3397efdedc0c9be12cb15a6e4"
+    },
+    {
+      "path": "STAGE4.md",
+      "change": "new",
+      "role_vi": "Điểm bắt đầu và lệnh chạy GĐ4"
+    },
+    {
+      "path": "config/stage4-experiments.json",
+      "change": "new",
+      "role_vi": "Định nghĩa nhu cầu, luồng nền, seed và thời gian xả"
+    },
+    {
+      "path": "docs/stage4-demand-generation.md",
+      "change": "new",
+      "role_vi": "Tài liệu thiết kế, thuật toán, Windows, giới hạn hoặc manifest"
+    },
+    {
+      "path": "docs/stage4-evidence/audit.json",
+      "change": "new",
+      "role_vi": "Kết quả thực tế, kiểm tra tái lập và bằng chứng kiểm thử"
+    },
+    {
+      "path": "docs/stage4-evidence/raw-runs.zip",
+      "change": "new",
+      "role_vi": "24 lượt hợp lệ, mỗi lượt có sealed-run.zip chứa log và snapshot"
+    },
+    {
+      "path": "docs/stage4-evidence/summary.json",
+      "change": "new",
+      "role_vi": "Kết quả thực tế, kiểm tra tái lập và bằng chứng kiểm thử"
+    },
+    {
+      "path": "docs/stage4-evidence/tests.txt",
+      "change": "new",
+      "role_vi": "Kết quả thực tế, kiểm tra tái lập và bằng chứng kiểm thử"
+    },
+    {
+      "path": "docs/stage4-evidence/validation-table.csv",
+      "change": "new",
+      "role_vi": "Kết quả thực tế, kiểm tra tái lập và bằng chứng kiểm thử"
+    },
+    {
+      "path": "docs/stage4-file-manifest.json",
+      "change": "new",
+      "role_vi": "Tài liệu thiết kế, thuật toán, Windows, giới hạn hoặc manifest"
+    },
+    {
+      "path": "docs/stage4-readme-section.md",
+      "change": "new",
+      "role_vi": "Tài liệu thiết kế, thuật toán, Windows, giới hạn hoặc manifest"
+    },
+    {
+      "path": "docs/stage4-scenario-design.md",
+      "change": "new",
+      "role_vi": "Tài liệu thiết kế, thuật toán, Windows, giới hạn hoặc manifest"
+    },
+    {
+      "path": "docs/stage4-validation.md",
+      "change": "new",
+      "role_vi": "Tài liệu thiết kế, thuật toán, Windows, giới hạn hoặc manifest"
+    },
+    {
+      "path": "docs/stage4-windows.md",
+      "change": "new",
+      "role_vi": "Tài liệu thiết kế, thuật toán, Windows, giới hạn hoặc manifest"
+    },
+    {
+      "path": "scripts/build_scenarios.py",
+      "change": "new",
+      "role_vi": "Lệnh người dùng chạy trên Windows/Python chuẩn"
+    },
+    {
+      "path": "scripts/install_stage4.py",
+      "change": "new",
+      "role_vi": "Lệnh người dùng chạy trên Windows/Python chuẩn"
+    },
+    {
+      "path": "scripts/run_experiments.py",
+      "change": "new",
+      "role_vi": "Lệnh người dùng chạy trên Windows/Python chuẩn"
+    },
+    {
+      "path": "scripts/run_scenario.py",
+      "change": "new",
+      "role_vi": "Lệnh người dùng chạy trên Windows/Python chuẩn"
+    },
+    {
+      "path": "scripts/verify_scenarios.py",
+      "change": "new",
+      "role_vi": "Lệnh người dùng chạy trên Windows/Python chuẩn"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/high_seed11.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/high_seed22.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/high_seed33.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/low_seed11.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/low_seed22.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/low_seed33.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/medium_seed11.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/medium_seed22.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/routes/generated/stage4/medium_seed33.rou.xml",
+      "change": "new",
+      "role_vi": "Nhu cầu từng vehicle, dùng chung cho một cặp cùng seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/high_baseline_seed11.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/high_baseline_seed22.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/high_baseline_seed33.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/high_greenwave_seed11.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/high_greenwave_seed22.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/high_greenwave_seed33.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/low_baseline_seed11.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/low_baseline_seed22.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/low_baseline_seed33.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/low_greenwave_seed11.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/low_greenwave_seed22.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/low_greenwave_seed33.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/medium_baseline_seed11.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/medium_baseline_seed22.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/medium_baseline_seed33.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/medium_greenwave_seed11.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/medium_greenwave_seed22.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "simulation/scenarios/experiments/medium_greenwave_seed33.sumocfg",
+      "change": "new",
+      "role_vi": "Cấu hình một tổ hợp mức/phương án/seed"
+    },
+    {
+      "path": "src/greenwave/simulation/experiments.py",
+      "change": "new",
+      "role_vi": "Tạo kịch bản, chạy SUMO hoặc audit gói niêm phong"
+    },
+    {
+      "path": "src/greenwave/simulation/scenario_audit.py",
+      "change": "new",
+      "role_vi": "Tạo kịch bản, chạy SUMO hoặc audit gói niêm phong"
+    },
+    {
+      "path": "src/greenwave/simulation/scenarios.py",
+      "change": "new",
+      "role_vi": "Tạo kịch bản, chạy SUMO hoặc audit gói niêm phong"
+    },
+    {
+      "path": "tests/test_scenarios.py",
+      "change": "new",
+      "role_vi": "15 test mới, giữ nguyên20 test trước"
+    }
+  ],
+  "protected_original_files": {
+    "STAGE3.md": "8ce0e0ca0f957b26164594847cda0c6a7e3bc878a6ddc3f2cb8b87dff8f431ba",
+    ".gitattributes": "2cccfb1df4b911b7cd497346c6a0d8153bd2737d56693bc324bb4e3b364aae0e",
+    ".gitignore": "6402a90d16edce8798e74ea0221232abbeb8d7067f8fe7dfd763c471fbcbc02b",
+    "requirements.txt": "61a315d507a41706fe5c0297dc0421c5278aa9810d8dab682ee266d92bc63598",
+    "tests/test_offset.py": "a3fa7923166c1b7875ba98bde69a91f385193393f97833811678cb858de7f322",
+    "tests/test_metrics.py": "8fe03b77316d7aff760451d7d08e27cc3f02a814592eef0f1ace6d69a06bf1af",
+    "tests/test_sumo_model.py": "0bcd201f805d70ef6fec5c1364a701e590c550344a7b27c941c9ef1e3a2aefdb",
+    "tests/test_fixed_plans.py": "9c3163bf1dc3a946796239311faef619105484901b91a7c7c1f110abf432483b",
+    "simulation/README.md": "f99cdbc814a9886e64ddf3df5e9d94d70eda5825832d5201d12288400c330510",
+    "docs/stage3-changes.md": "6e5f9fa815eac06e1a39433080ba49849e2208ed62481c4b7b5db03b34af8f56",
+    "docs/theory-summary.md": "af17829d8106bcf17fc9a063f53955a62d5b2855b0b71a097d8341e772f5ad9f",
+    "docs/stage2-validation.md": "5724ebf5fd567e4a0e569276b7ba87a8a69c7f1cbbc9865273fd72e77e45c83c",
+    "docs/stage3-windows.md": "a8a7db4020765f36480c4724c5c05bcdf02cdedc99c4ecb5caa3161170b6f48a",
+    "docs/stage2-files.txt": "7cf951bb948fea12adfdd4281c64d3d5f5900c587811a171954a8146f923f460",
+    "docs/stage3-file-manifest.json": "dc385ddfaf54aff2e1c97c0c2262a1c170ecd16542238da4c1587704c9b8cb07",
+    "docs/algorithm.md": "462542d044e56d53d46f700651e38270c49087e051511c6a39be05602c2fdca3",
+    "docs/requirements.md": "380732be9ef4c67757c84b473e194fa635c6d8aca00be7edd6116977127be064",
+    "docs/stage3-validation.md": "5b1ed4efc36121b61304b316bbdc107490f4158b6a7ce9b1a9d6bf8c9dbb446c",
+    "docs/stage3-algorithm.md": "d189e191b4f0e69b9445395c7007fc9569e7a7697842943d435bd12f322e2ce1",
+    "docs/stage2-windows.md": "e52b43dcd712b1db867dae290297b77779643e0622ce535c35c0c7a49e3b9241",
+    "docs/architecture.md": "883892ac42b80d152de3fca4dd7b89857cc53a9daff1e7fc80c8df2bcf190cd7",
+    "docs/git-workflow.md": "c1da93b7322455ffbf9ec2aee7bcfe089af2d1a8a7224dbb976dcfcf252017b2",
+    "docs/experiment-plan.md": "7027823acf8d40076e308e1a199c683a466c8bd0b511f43c5783e683258bd895",
+    "docs/test-plan.md": "3089a898d263e758a9a0ea49b255e0fbe38409cc020512e9e4612f90eb187dc2",
+    "docs/report-outline.md": "c46c9555cf94309672fbd9509d28d28de7de769da6210d3ab2b1e4c9f810e81a",
+    "docs/setup.md": "7f02594d78486b7c6d02cc57f9f138cf59d7b564d5c016863a93225dae1e48ff",
+    "scripts/plot_signal_schedule.py": "4d724b5f603d63d7f93145d1537f0bb60ac782c0f5dde10fa99ba231a305d834",
+    "scripts/preview_offsets.py": "6e1c8c7606756814e2f83e75d858e9679400f82e72252cd4ae8563409316eeb5",
+    "scripts/check_environment.py": "b9f799ae9d9cae2ce333da8191b51a44d8eb3a76dfdd4ba21219a78b3c791661",
+    "scripts/run_sample.py": "a8bb141c11b18792a03d485f2d09602b364a58fcc535f2e9fa49fc8a81cdef1c",
+    "scripts/run_plan.py": "5d60211ff1c1e84a2b8a61e90d62cbc79737ab1f1d1e64ea67c7f6786a34c45c",
+    "scripts/build_plans.py": "9715b75a9b330fe90edce627df2aa8af8087e38bc3dfe20331e7fd7ad637b362",
+    "scripts/build_network.py": "9a3dba749d753d9caeaf51627af1620320613b8ce1d43e3ead14e29e7b123e64",
+    "scripts/install_stage3.py": "e069d0cc1a529ed3d3fbc6d81cc300b341464b423784ca825016609927e53fde",
+    "scripts/validate_sample.py": "3b6212451f8004c05988cc464116b54b2511f8a7162f93b050b84882b0e367e7",
+    "scripts/verify_plans.py": "c13234538735a71de9a079c6c677ad3734cac7867e32b77bdfc24c28f814eac1",
+    "config/signals.json": "8721524ab1b1db9172ec160f714fcf495f70b6b07ff2844000ba68958657fae3",
+    "config/experiments.json": "a3b565743f112fdf1f992864b08b1c7bad77fdf86bb08668de83be80617fb596",
+    "config/network.json": "700121fb4926d8e5dd21f8e73892582e7253fad21017077d2cfc0046f14363cf",
+    "data/input/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/processed/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/scenarios/greenwave.sumocfg": "0f063f79095d311285e11fbb5fd1c1d5db3b04df718957dba9a6b0b4fc05d29f",
+    "simulation/scenarios/sample.sumocfg": "e54153d179a8aa91276c0714bc704d9d6fbf4aa710a1e1867f7093756f1c6cf1",
+    "simulation/scenarios/baseline.sumocfg": "4844a762667e726bb135bdc923de2ae1c6e319b5fcd584ab1ebdf6456cad8ce5",
+    "simulation/signals/README.md": "a5b79bf601315ea57623340ccc90d2fe8316dafefe845393a9db9999536f1e70",
+    "simulation/signals/fixed.add.xml": "f2f93d75b9467b100773c8eb105431a99157829bf797c57ee9f9d8ebb1f829db",
+    "simulation/signals/baseline.add.xml": "33e3f52f340bb0c3cddaaf331214c06f1c24b52b0ba30af3a55b0f81b201c0ad",
+    "simulation/signals/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/signals/greenwave.add.xml": "6b027d178bcb27903bb38d053cfa815977a14fce7865f18cdc425d7c337bb274",
+    "simulation/scenarios/generated/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/routes/generated/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/routes/source/sample.rou.xml": "1f90b2b6bec2240b56c345f7cb37eba82dd73f9064d111973b62cda4986500bb",
+    "simulation/routes/source/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/network/generated/corridor.net.xml": "9886f56b59be44dcc623139bc493f479cf2d49809c48b739aa1383102be50b5c",
+    "simulation/network/generated/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/network/source/corridor.con.xml": "1b5682caf7f792d1fa65f08c166e436b92ec786199ea17c783c4c85db7f31710",
+    "simulation/network/source/corridor.edg.xml": "501ee0efc343387dfcad4154d53d884f331b64ab07c5efda682fe3d2fdeb1781",
+    "simulation/network/source/corridor.nod.xml": "596f1e41b9657690934a847e678c918181fe23bf166a9bc3086bd1542a129e65",
+    "simulation/network/source/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/stage3-evidence/verification.json": "2a216a910490e417bea11451a0b82601b1ded9c958b9a9b9c7dddac4848cfd00",
+    "docs/stage3-evidence/baseline-tls.csv": "51de37c81bb40dcb46349e758d485512efe69a1c8224fa5d8e61d62f023d8a10",
+    "docs/stage3-evidence/time-space.svg": "61c0072d4558bb17a7aeba9524a7227fe139d169ec02dbe08d1dc6d3f8d9c571",
+    "docs/stage3-evidence/tests.txt": "3354cdb547e07acc1ac4c5f5d2c95fc032df06c07dd78b6e503042dd09ae7999",
+    "docs/stage3-evidence/greenwave-tls.csv": "d2c3d5fe71174236cdbef4d413e28d290d52a444711eed87c3c6e09ac77dc303",
+    "docs/stage3-evidence/baseline-green-starts.csv": "fdf581ee07bd64b13d34a879a4faed000685437fd9ea5d8df194f2647613641f",
+    "docs/stage3-evidence/greenwave-green-starts.csv": "528d585a1eb8f5e600e69c921fa74cbabb31055f7ba8c21f9da09b682d787b65",
+    "docs/stage3-evidence/time-space.png": "4cbf936c58eabf4a016a12174e8c2d51e6a6eec751dde2ee0dc5a800574d1e5f",
+    "results/tables/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/figures/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/raw/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".github/workflows/ci.yml": "d6b2c5a69a8e223185c7027b3bd02ee2a1ce27e9998ad9e7616b4d28b78da85b",
+    "src/greenwave/__init__.py": "813f92f696995a9c04a9d003290e989c262c61bff8932d6a07b90ed7747d9fd6",
+    "src/greenwave/algorithms/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/greenwave/algorithms/offset.py": "f2faf08a3e3e31e18d263d624fd6332fe602121eeb62aefe80d6999e1872c67a",
+    "src/greenwave/analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/greenwave/analysis/metrics.py": "8aa7dc3eeb74174b2b31e85001852e0707f83692c94014d11c5dd36e9f178702",
+    "src/greenwave/simulation/model.py": "1efe6d551925de71b016fb4dc11944e6ad10eeba4407b6af8f0caf2838d8671c",
+    "src/greenwave/simulation/validation.py": "96ad30f833d5222621abe7e20838fc060233506a039eb79ce60cf323e835bf4e",
+    "src/greenwave/simulation/plan_validation.py": "5823f6322c8073eda32b4a658e617db18f24a6632858916d40acdc2c877767cd",
+    "src/greenwave/simulation/README.md": "853e772eb2b67825154f898f4d974f9f25b231a8081e9ad36627f3925e5b56ff",
+    "src/greenwave/visualization/README.md": "95736b778f56064d7b3a28af8d8fef354eb5afd8ce06f1f858abb43d68cd5bcf",
+    "src/greenwave/controllers/README.md": "9ff58aa09a71a7775bfe262bed194e03a980e49e25b4a32fb4abb783528a5f79",
+    "src/greenwave/controllers/fixed_plans.py": "110925126d8a646dfb836f31369bea14625b40c065f1eb2c3abb6dd3c6bdf5b4"
+  },
+  "readme_merge": "installer appends bounded stage4-readme-section without replacing existing content"
+}
