@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ITS GreenWave Simulation – Đề tài 9 (mức 2)
 
 **Tên đề tài:** Mô phỏng và đánh giá phối hợp đèn tín hiệu theo nguyên tắc làn sóng xanh trên tuyến đường 4 giao lộ.
@@ -40,3 +41,7 @@ python -m unittest discover -s tests -v
 - [Traffic lights SUMO](https://sumo.dlr.de/docs/Simulation/Traffic_Lights.html)
 
 **Lưu ý:** Dữ liệu ví dụ trong `config/` là **giả định**, không được trình bày như dữ liệu đo đạc thực tế.
+=======
+# GreenWave-Simulation-ITS-GROUP2
+Xây dựng mô phỏng phối hợp đèn tín hiệu theo nguyên tắc làn sóng xanh trên một tuyến đường
+>>>>>>> 3f56e683dd6aebc34c81fd8f52a232377e80a385
