@@ -1,0 +1,21 @@
+{
+  "description": "Kịch bản giả lập để so sánh; phải dùng cùng seed và lưu lượng giữa baseline/greenwave",
+  "main_direction_vehicles_per_hour": [
+    300,
+    600,
+    900
+  ],
+  "cross_direction_vehicles_per_hour": 100,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "warmup_s": 300,
+  "measurement_duration_s": 3600,
+  "strategies": [
+    "baseline",
+    "greenwave"
+  ],
+  "tripinfo_output": true
+}

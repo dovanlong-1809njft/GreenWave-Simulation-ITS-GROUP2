@@ -1,0 +1,20 @@
+# Kiểm tra phần thuật toán Python khi mở Pull Request hoặc push main.
+# Workflow này CHƯA chạy SUMO do chưa có file mô hình đầy đủ.
+name: Python unit tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v

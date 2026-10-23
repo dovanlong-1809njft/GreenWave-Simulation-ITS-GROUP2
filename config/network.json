@@ -1,0 +1,17 @@
+{
+  "description": "Giả định khởi tạo – KHÔNG phải số liệu hiện trường",
+  "junctions": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "intersections_spacing_m": [
+    300,
+    300,
+    300
+  ],
+  "priority_direction": "A_to_D",
+  "speed_target_kmh": 36,
+  "simulation_step_s": 1
+}

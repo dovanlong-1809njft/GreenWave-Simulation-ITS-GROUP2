@@ -1,0 +1,36 @@
+# Python – tệp tạo tự động
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# IDE / hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# File kết quả lớn tạo lại được (giữ thư mục qua .gitkeep)
+results/raw/*
+!results/raw/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+
+# Dữ liệu sinh tự động
+simulation/routes/generated/*
+!simulation/routes/generated/.gitkeep
+simulation/scenarios/generated/*
+!simulation/scenarios/generated/.gitkeep
+simulation/network/generated/*
+!simulation/network/generated/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Không đẩy thông tin mật lên Git
+.env
+.env.*
+!.env.example

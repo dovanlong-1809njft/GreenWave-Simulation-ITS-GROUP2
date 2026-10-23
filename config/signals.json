@@ -1,0 +1,16 @@
+{
+  "cycle_s": 120,
+  "main_green_s": 45,
+  "main_yellow_s": 3,
+  "all_red_after_main_s": 2,
+  "cross_green_s": 65,
+  "cross_yellow_s": 3,
+  "all_red_after_cross_s": 2,
+  "baseline_offsets_s": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "explanation": "Offset greenwave sẽ tính từ network.json; các pha giả định cần đối chiếu sơ đồ xung đột thực tế trong SUMO."
+}
