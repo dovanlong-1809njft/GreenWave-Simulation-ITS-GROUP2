@@ -13,6 +13,7 @@
 **Tên đề tài:** Mô phỏng và đánh giá phối hợp đèn tín hiệu theo nguyên tắc làn sóng xanh trên tuyến đường 4 giao lộ.
 
 > **Trạng thái:** Giai đoạn 2 có mạng SUMO và xe mẫu chạy được; chưa triển khai thực nghiệm làn sóng xanh.
+> **Trạng thái:** đã triển khai cấu trúc dự án .
 
 ## Mục tiêu
 - 4 giao lộ A–B–C–D, ưu tiên một hướng A → D; có dòng xe ngang để mô phỏng giao lộ hợp lý.
@@ -21,6 +22,7 @@
 - Kết quả: thời gian hành trình, thời gian chờ, số lần dừng và tỷ lệ xe hoàn tất hành trình; so sánh hai phương án với cùng đầu vào và random seed.
 - Kiểm thử code, lưu bảng và biểu đồ, viết báo cáo và trình diễn bằng SUMO-GUI.
 - Đã có mạng 4 nút, xe mẫu và đèn cố định; chưa có ma trận 18 lượt so sánh baseline/greenwave.
+- chương trình mô phỏng SUMO đã hoàn thiện ,giai đoạn tiếp theo cần triển khai các file mạng đường/tuyến xe/kịch bản SUMO .
 
 ## Quy ước quản lý
 - `config/`: giả định mô hình và thiết kế thực nghiệm.
@@ -60,3 +62,18 @@ py scripts/validate_sample.py --run
 ```
 
 [Hướng dẫn Windows và vai trò từng file](docs/stage2-windows.md) · [Kết quả kiểm thử](docs/stage2-validation.md).
+Để chạy **mô phỏng giao thông**, cần cài SUMO/NETEDIT và thực hiện các TODO trong `simulation/`; xem `docs/setup.md` và `docs/experiment-plan.md`.
+
+<!-- STAGE4:BEGIN -->
+## Giai đoạn 4 — kịch bản nhu cầu và dữ liệu thô
+
+Đã có bộ tạo 300/600/900 xe/giờ theo hướng W_A→A→D, nhu cầu dùng chung giữa hai phương án, script chạy/kiểm tra và log có snapshot đầu vào. **Mức 900 xe/giờ có giới hạn năng lực; chưa nghiệm thu toàn bộ như một trạng thái phục vụ ổn định.** Chưa kết luận Green Wave hiệu quả hơn.
+
+Xem [STAGE4.md](STAGE4.md), [thiết kế](docs/stage4-scenario-design.md), [kiểm thử](docs/stage4-validation.md), [Windows](docs/stage4-windows.md).
+
+```powershell
+py scripts/build_scenarios.py
+py scripts/verify_scenarios.py
+py scripts/run_experiments.py --seed 11
+```
+<!-- STAGE4:END -->

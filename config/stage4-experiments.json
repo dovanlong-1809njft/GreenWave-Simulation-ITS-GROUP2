@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "description_vi": "Nhu cầu đầu vào giả lập theo hướng W_A → A → D, không phải số liệu thực địa hoặc lưu lượng toàn mạng",
+  "levels_vph": {"low": 300, "medium": 600, "high": 900},
+  "seeds": [11, 22, 33],
+  "plans": ["baseline", "greenwave"],
+  "warmup_s": 300,
+  "measurement_s": 3600,
+  "drain_s": 3600,
+  "reverse_vph": 100,
+  "each_cross_direction_vph": 100,
+  "generator": "stratified_uniform_v1",
+  "precision_s": 0.001,
+  "departure_position": "base",
+  "departure_speed": "max",
+  "max_depart_delay_s": -1,
+  "time_to_teleport_s": -1
+}

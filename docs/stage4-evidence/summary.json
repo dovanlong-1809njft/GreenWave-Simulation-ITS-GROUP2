@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-24",
+  "source_branch": "feature/stage3-greenwave",
+  "source_commit": "8089d6f282b3a99647b7aeb2ca099eb8c150b58f",
+  "sumo_version": "1.28.0",
+  "host_python": "3.12",
+  "os_tested": "Linux",
+  "primary_cases": 18,
+  "repeat_cases": 6,
+  "fair_pairs": 9,
+  "repeat_matches": 6,
+  "acceptance": "FUNCTIONAL_SCENARIOS_VERIFIED; HIGH_TRAFFIC_CAPACITY_LIMIT; NOT_FULL_ACCEPTANCE",
+  "raw_archive_sha256": "37c3f9d1e7d25d007bd19189d0b99e152e4905d363398ff292d8300a41a3d8e0",
+  "all_arrived_after_drain": true,
+  "collision_events_total": 0,
+  "teleports_total": 0,
+  "warnings_total": 0
+}

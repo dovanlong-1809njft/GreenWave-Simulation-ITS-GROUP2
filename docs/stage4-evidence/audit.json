@@ -1,0 +1,50 @@
+{
+  "cases_verified": 18,
+  "fair_pairs": [
+    [
+      "low_baseline_seed11",
+      "low_greenwave_seed11"
+    ],
+    [
+      "low_baseline_seed22",
+      "low_greenwave_seed22"
+    ],
+    [
+      "low_baseline_seed33",
+      "low_greenwave_seed33"
+    ],
+    [
+      "medium_baseline_seed11",
+      "medium_greenwave_seed11"
+    ],
+    [
+      "medium_baseline_seed22",
+      "medium_greenwave_seed22"
+    ],
+    [
+      "medium_baseline_seed33",
+      "medium_greenwave_seed33"
+    ],
+    [
+      "high_baseline_seed11",
+      "high_greenwave_seed11"
+    ],
+    [
+      "high_baseline_seed22",
+      "high_greenwave_seed22"
+    ],
+    [
+      "high_baseline_seed33",
+      "high_greenwave_seed33"
+    ]
+  ],
+  "repeat_cases_identical": [
+    "low_baseline_seed11",
+    "low_greenwave_seed11",
+    "medium_baseline_seed11",
+    "medium_greenwave_seed11",
+    "high_baseline_seed11",
+    "high_greenwave_seed11"
+  ],
+  "capacity_limits_present": true
+}
