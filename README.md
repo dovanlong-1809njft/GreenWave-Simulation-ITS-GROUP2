@@ -1,3 +1,13 @@
+## Thành viên
+
+| STT | Họ và tên             |    MSSV      | 
+| --- | --------------------- | ------------ | 
+| 1   | Văn Hoàng             |              |  
+| 2   | Đỗ Văn Long           | 054205002454 | 
+| 3   | Lê Minh Như           |              |
+| 4   | Hoàng Minh Tâm        |              | 
+| 5   | Huỳnh Nguyễn Bảo Long |              | 
+
 # ITS GreenWave Simulation – Đề tài 9 
 
 **Tên đề tài:** Mô phỏng và đánh giá phối hợp đèn tín hiệu theo nguyên tắc làn sóng xanh trên tuyến đường 4 giao lộ.
