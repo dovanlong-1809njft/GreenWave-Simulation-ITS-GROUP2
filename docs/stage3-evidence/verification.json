@@ -1,0 +1,229 @@
+{
+  "parameters": {
+    "junctions": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "spacing_m": [
+      300.0,
+      300.0,
+      300.0
+    ],
+    "speed_kmh": 36.0,
+    "segment_travel_s": [
+      30.0,
+      30.0,
+      30.0
+    ],
+    "cycle_s": 120.0,
+    "durations_s": [
+      45.0,
+      3.0,
+      2.0,
+      65.0,
+      3.0,
+      2.0
+    ],
+    "step_s": 1.0,
+    "offsets_s": {
+      "baseline": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "greenwave": [
+        0.0,
+        30.0,
+        60.0,
+        90.0
+      ]
+    }
+  },
+  "scope": "Signal mechanism only; no efficiency comparison",
+  "python_version": "3.12.14",
+  "platform": "Linux",
+  "sumo_version": "Eclipse SUMO sumo 1.28.0",
+  "plans": {
+    "baseline": {
+      "trace_sha256": "e1a32bfa60081cf80367c75151bba089e1582f3d698b014999043463bd5d0d19",
+      "trips_sha256": "e0efdd06130b0701ff9758a412296ccf42f346431a5dd08340dc3195433008a0",
+      "arrived": 85,
+      "collisions": 0,
+      "teleports": 0,
+      "end_s": 1800.0,
+      "seed": "11",
+      "repeat_identical": true,
+      "tls_records_per_run": 7200,
+      "green_starts_s": {
+        "A": [
+          0.0,
+          120.0,
+          240.0,
+          360.0,
+          480.0,
+          600.0,
+          720.0,
+          840.0,
+          960.0,
+          1080.0,
+          1200.0,
+          1320.0,
+          1440.0,
+          1560.0,
+          1680.0
+        ],
+        "B": [
+          0.0,
+          120.0,
+          240.0,
+          360.0,
+          480.0,
+          600.0,
+          720.0,
+          840.0,
+          960.0,
+          1080.0,
+          1200.0,
+          1320.0,
+          1440.0,
+          1560.0,
+          1680.0
+        ],
+        "C": [
+          0.0,
+          120.0,
+          240.0,
+          360.0,
+          480.0,
+          600.0,
+          720.0,
+          840.0,
+          960.0,
+          1080.0,
+          1200.0,
+          1320.0,
+          1440.0,
+          1560.0,
+          1680.0
+        ],
+        "D": [
+          0.0,
+          120.0,
+          240.0,
+          360.0,
+          480.0,
+          600.0,
+          720.0,
+          840.0,
+          960.0,
+          1080.0,
+          1200.0,
+          1320.0,
+          1440.0,
+          1560.0,
+          1680.0
+        ]
+      }
+    },
+    "greenwave": {
+      "trace_sha256": "3b5a61f2fd52d8c5595f14969406a15664bc405d1035ad628a87024d4a3c0d2a",
+      "trips_sha256": "ff351ec0de71815e2b2c3460419ec5650b11a7cbc44c959d12aa239e0692172e",
+      "arrived": 85,
+      "collisions": 0,
+      "teleports": 0,
+      "end_s": 1800.0,
+      "seed": "11",
+      "repeat_identical": true,
+      "tls_records_per_run": 7200,
+      "green_starts_s": {
+        "A": [
+          0.0,
+          120.0,
+          240.0,
+          360.0,
+          480.0,
+          600.0,
+          720.0,
+          840.0,
+          960.0,
+          1080.0,
+          1200.0,
+          1320.0,
+          1440.0,
+          1560.0,
+          1680.0
+        ],
+        "B": [
+          30.0,
+          150.0,
+          270.0,
+          390.0,
+          510.0,
+          630.0,
+          750.0,
+          870.0,
+          990.0,
+          1110.0,
+          1230.0,
+          1350.0,
+          1470.0,
+          1590.0,
+          1710.0
+        ],
+        "C": [
+          60.0,
+          180.0,
+          300.0,
+          420.0,
+          540.0,
+          660.0,
+          780.0,
+          900.0,
+          1020.0,
+          1140.0,
+          1260.0,
+          1380.0,
+          1500.0,
+          1620.0,
+          1740.0
+        ],
+        "D": [
+          90.0,
+          210.0,
+          330.0,
+          450.0,
+          570.0,
+          690.0,
+          810.0,
+          930.0,
+          1050.0,
+          1170.0,
+          1290.0,
+          1410.0,
+          1530.0,
+          1650.0,
+          1770.0
+        ]
+      }
+    }
+  },
+  "input_sha256": {
+    "config/network.json": "700121fb4926d8e5dd21f8e73892582e7253fad21017077d2cfc0046f14363cf",
+    "config/signals.json": "8721524ab1b1db9172ec160f714fcf495f70b6b07ff2844000ba68958657fae3",
+    "simulation/network/generated/corridor.net.xml": "9886f56b59be44dcc623139bc493f479cf2d49809c48b739aa1383102be50b5c",
+    "simulation/routes/source/sample.rou.xml": "1f90b2b6bec2240b56c345f7cb37eba82dd73f9064d111973b62cda4986500bb",
+    "simulation/scenarios/sample.sumocfg": "e54153d179a8aa91276c0714bc704d9d6fbf4aa710a1e1867f7093756f1c6cf1",
+    "src/greenwave/algorithms/offset.py": "f2faf08a3e3e31e18d263d624fd6332fe602121eeb62aefe80d6999e1872c67a",
+    "src/greenwave/controllers/fixed_plans.py": "110925126d8a646dfb836f31369bea14625b40c065f1eb2c3abb6dd3c6bdf5b4",
+    "src/greenwave/simulation/plan_validation.py": "5823f6322c8073eda32b4a658e617db18f24a6632858916d40acdc2c877767cd",
+    "simulation/signals/baseline.add.xml": "33e3f52f340bb0c3cddaaf331214c06f1c24b52b0ba30af3a55b0f81b201c0ad",
+    "simulation/scenarios/baseline.sumocfg": "4844a762667e726bb135bdc923de2ae1c6e319b5fcd584ab1ebdf6456cad8ce5",
+    "simulation/signals/greenwave.add.xml": "6b027d178bcb27903bb38d053cfa815977a14fce7865f18cdc425d7c337bb274",
+    "simulation/scenarios/greenwave.sumocfg": "0f063f79095d311285e11fbb5fd1c1d5db3b04df718957dba9a6b0b4fc05d29f"
+  },
+  "different_signal_schedules": true,
+  "runs_completed": 4
+}

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+  <edge id="W_A" from="W" to="A" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="A_W" from="A" to="W" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="A_B" from="A" to="B" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="B_A" from="B" to="A" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="B_C" from="B" to="C" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="C_B" from="C" to="B" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="C_D" from="C" to="D" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="D_C" from="D" to="C" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="D_E" from="D" to="E" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="E_D" from="E" to="D" numLanes="1" speed="10.0" priority="2" spreadType="right" />
+  <edge id="AN_A" from="AN" to="A" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="A_AN" from="A" to="AN" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="AS_A" from="AS" to="A" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="A_AS" from="A" to="AS" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="BN_B" from="BN" to="B" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="B_BN" from="B" to="BN" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="BS_B" from="BS" to="B" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="B_BS" from="B" to="BS" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="CN_C" from="CN" to="C" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="C_CN" from="C" to="CN" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="CS_C" from="CS" to="C" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="C_CS" from="C" to="CS" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="DN_D" from="DN" to="D" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="D_DN" from="D" to="DN" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="DS_D" from="DS" to="D" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+  <edge id="D_DS" from="D" to="DS" numLanes="1" speed="10.0" priority="1" spreadType="right" />
+</edges>

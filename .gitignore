@@ -34,3 +34,6 @@ data/processed/*
 .env
 .env.*
 !.env.example
+
+# Giữ mạng chuẩn giai đoạn 2 để clone/giải nén xong mở được ngay
+!simulation/network/generated/corridor.net.xml

@@ -1,5 +1,7 @@
 # Thuật toán phối hợp đèn / Green-wave Offset
 
+Nguồn và ranh giới giữa lý thuyết với triển khai: xem [Cơ sở lý thuyết ITS](theory-summary.md). Lecture 04 tr. 25 nêu L/V cho hai nút; cộng dồn và modulo dưới đây là cách biểu diễn theo mốc chung để lập trình, không phải công thức chép nguyên văn từ slide. Cần kiểm tra quy ước offset của SUMO bằng thời điểm bật xanh thực tế.
+
 Theo phần điều khiển đèn liên hoàn trong Lecture 04:
 
 - Thời gian đi giữa hai nút: `t_i = L_i / V` (L: m, V: m/s).
