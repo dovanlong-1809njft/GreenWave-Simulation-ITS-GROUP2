@@ -1,0 +1,33 @@
+{
+  "base": "Stage 2 delivered package, preserved byte for byte",
+  "remote_head_observed": "5fdcd65a2b53c892c2e3d7f154b4ff6e536e7822",
+  "files": [
+    "STAGE3.md",
+    "docs/stage3-algorithm.md",
+    "docs/stage3-changes.md",
+    "docs/stage3-evidence/baseline-green-starts.csv",
+    "docs/stage3-evidence/baseline-tls.csv",
+    "docs/stage3-evidence/greenwave-green-starts.csv",
+    "docs/stage3-evidence/greenwave-tls.csv",
+    "docs/stage3-evidence/tests.txt",
+    "docs/stage3-evidence/time-space.png",
+    "docs/stage3-evidence/time-space.svg",
+    "docs/stage3-evidence/verification.json",
+    "docs/stage3-file-manifest.json",
+    "docs/stage3-validation.md",
+    "docs/stage3-windows.md",
+    "scripts/build_plans.py",
+    "scripts/install_stage3.py",
+    "scripts/plot_signal_schedule.py",
+    "scripts/run_plan.py",
+    "scripts/verify_plans.py",
+    "simulation/scenarios/baseline.sumocfg",
+    "simulation/scenarios/greenwave.sumocfg",
+    "simulation/signals/baseline.add.xml",
+    "simulation/signals/greenwave.add.xml",
+    "src/greenwave/controllers/fixed_plans.py",
+    "src/greenwave/simulation/plan_validation.py",
+    "tests/test_fixed_plans.py"
+  ],
+  "modified_existing_files": []
+}

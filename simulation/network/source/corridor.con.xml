@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+  <connection from="W_A" to="A_B" fromLane="0" toLane="0" />
+  <connection from="B_A" to="A_W" fromLane="0" toLane="0" />
+  <connection from="AN_A" to="A_AS" fromLane="0" toLane="0" />
+  <connection from="AS_A" to="A_AN" fromLane="0" toLane="0" />
+  <connection from="A_B" to="B_C" fromLane="0" toLane="0" />
+  <connection from="C_B" to="B_A" fromLane="0" toLane="0" />
+  <connection from="BN_B" to="B_BS" fromLane="0" toLane="0" />
+  <connection from="BS_B" to="B_BN" fromLane="0" toLane="0" />
+  <connection from="B_C" to="C_D" fromLane="0" toLane="0" />
+  <connection from="D_C" to="C_B" fromLane="0" toLane="0" />
+  <connection from="CN_C" to="C_CS" fromLane="0" toLane="0" />
+  <connection from="CS_C" to="C_CN" fromLane="0" toLane="0" />
+  <connection from="C_D" to="D_E" fromLane="0" toLane="0" />
+  <connection from="E_D" to="D_C" fromLane="0" toLane="0" />
+  <connection from="DN_D" to="D_DS" fromLane="0" toLane="0" />
+  <connection from="DS_D" to="D_DN" fromLane="0" toLane="0" />
+</connections>

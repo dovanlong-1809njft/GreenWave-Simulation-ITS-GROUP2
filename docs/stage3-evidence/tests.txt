@@ -1,0 +1,25 @@
+test_build_preserves_stage2_and_is_deterministic (test_fixed_plans.PlanTests.test_build_preserves_stage2_and_is_deterministic) ... ok
+test_conflicting_green_is_rejected (test_fixed_plans.PlanTests.test_conflicting_green_is_rejected) ... ok
+test_incorrect_offset_is_rejected (test_fixed_plans.PlanTests.test_incorrect_offset_is_rejected) ... ok
+test_invalid_inputs_and_non_grid_offset_rejected (test_fixed_plans.PlanTests.test_invalid_inputs_and_non_grid_offset_rejected) ... ok
+test_offsets_hand_calculation_and_units (test_fixed_plans.PlanTests.test_offsets_hand_calculation_and_units) ... ok
+test_phase_boundaries_independent_table (test_fixed_plans.PlanTests.test_phase_boundaries_independent_table) ... ok
+test_stale_network_geometry_rejected (test_fixed_plans.PlanTests.test_stale_network_geometry_rejected) ... ok
+test_static_xml_and_four_offsets (test_fixed_plans.PlanTests.test_static_xml_and_four_offsets) ... ok
+test_two_plans_in_sumo_and_reproducibility (test_fixed_plans.PlanTests.test_two_plans_in_sumo_and_reproducibility) ... ok
+test_unequal_inputs_are_rejected (test_fixed_plans.PlanTests.test_unequal_inputs_are_rejected) ... ok
+test_increase_is_negative_reduction (test_metrics.MetricsTests.test_increase_is_negative_reduction) ... ok
+test_mean (test_metrics.MetricsTests.test_mean) ... ok
+test_reduction (test_metrics.MetricsTests.test_reduction) ... ok
+test_four_junction_offsets (test_offset.OffsetTests.test_four_junction_offsets) ... ok
+test_invalid_speed (test_offset.OffsetTests.test_invalid_speed) ... ok
+test_offset_modulo_cycle (test_offset.OffsetTests.test_offset_modulo_cycle) ... ok
+test_travel_time (test_offset.OffsetTests.test_travel_time) ... ok
+test_invalid_cycle_is_rejected (test_sumo_model.ModelTests.test_invalid_cycle_is_rejected) ... ok
+test_structure_routes_and_signal_conflicts (test_sumo_model.ModelTests.test_structure_routes_and_signal_conflicts) ... ok
+test_sumo_integration (test_sumo_model.ModelTests.test_sumo_integration) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 3.753s
+
+OK

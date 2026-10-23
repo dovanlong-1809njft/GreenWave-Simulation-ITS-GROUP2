@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <vType id="car" vClass="passenger" accel="2.6" decel="4.5" sigma="0" length="5" minGap="2.5" maxSpeed="10.0" speedFactor="1" />
+  <route id="main_east" edges="W_A A_B B_C C_D D_E" />
+  <route id="main_west" edges="E_D D_C C_B B_A A_W" />
+  <route id="A_south" edges="AN_A A_AS" />
+  <route id="A_north" edges="AS_A A_AN" />
+  <route id="B_south" edges="BN_B B_BS" />
+  <route id="B_north" edges="BS_B B_BN" />
+  <route id="C_south" edges="CN_C C_CS" />
+  <route id="C_north" edges="CS_C C_CN" />
+  <route id="D_south" edges="DN_D D_DS" />
+  <route id="D_north" edges="DS_D D_DN" />
+  <flow id="east" type="car" route="main_east" begin="0" end="360" number="30" departLane="0" departSpeed="max" color="1,0.7,0" />
+  <flow id="west" type="car" route="main_west" begin="0" end="360" number="15" departLane="0" departSpeed="max" color="0,0.6,1" />
+  <flow id="AS" type="car" route="A_south" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="AN" type="car" route="A_north" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="BS" type="car" route="B_south" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="BN" type="car" route="B_north" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="CS" type="car" route="C_south" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="CN" type="car" route="C_north" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="DS" type="car" route="D_south" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+  <flow id="DN" type="car" route="D_north" begin="0" end="360" number="5" departLane="0" departSpeed="max" color="0.5,0.8,0.5" />
+</routes>

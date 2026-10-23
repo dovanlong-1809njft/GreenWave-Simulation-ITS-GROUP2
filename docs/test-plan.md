@@ -11,3 +11,7 @@
 - **AT-02 (TODO)**: chạy demo bằng GUI và giải thích kết quả.
 
 Không coi việc vượt mọi trường hợp bằng greenwave là tiêu chí bắt buộc. Kết quả trái kỳ vọng phải được phân tích.
+
+## Kiểm thử giai đoạn 2
+
+Chạy `py scripts/validate_sample.py --run` và `py -m unittest discover -s tests -v`. Xem [báo cáo kiểm thử](stage2-validation.md). Test tích hợp được đánh dấu bỏ qua nếu không tìm thấy SUMO; không coi bỏ qua là kiểm thử tích hợp đã đạt.
