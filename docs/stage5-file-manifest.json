@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "source_branch": "feature/stage4-traffic-scenarios",
+  "source_commit": "d44705ab93abe1e0e69fae1a17bdd85df6965ce7",
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "STAGE5.md",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "docs/stage5-evidence/hand-check.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-evidence/source-runs.zip",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-evidence/tests.txt",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-file-manifest.json",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-limitations.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-methodology.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-metrics.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-readme-section.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-results.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-validation.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "docs/stage5-windows.md",
+      "change": "new",
+      "role_vi": "Tài liệu/bằng chứng"
+    },
+    {
+      "path": "results/figures/stage5/final/01-travel-time.png",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/01-travel-time.svg",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/02-reduction.png",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/02-reduction.svg",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/03-waiting.png",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/03-waiting.svg",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/04-stops.png",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/04-stops.svg",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/05-seeds.png",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/05-seeds.svg",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/06-overload.png",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/figures/stage5/final/06-overload.svg",
+      "change": "new",
+      "role_vi": "Hình khoa học PNG/SVG"
+    },
+    {
+      "path": "results/tables/stage5/final/analysis_manifest.json",
+      "change": "new",
+      "role_vi": "Bảng kết quả và provenance"
+    },
+    {
+      "path": "results/tables/stage5/final/overload_diagnostics.csv",
+      "change": "new",
+      "role_vi": "Bảng kết quả và provenance"
+    },
+    {
+      "path": "results/tables/stage5/final/paired_comparison.csv",
+      "change": "new",
+      "role_vi": "Bảng kết quả và provenance"
+    },
+    {
+      "path": "results/tables/stage5/final/scenario_summary.csv",
+      "change": "new",
+      "role_vi": "Bảng kết quả và provenance"
+    },
+    {
+      "path": "results/tables/stage5/final/seed_aggregation.csv",
+      "change": "new",
+      "role_vi": "Bảng kết quả và provenance"
+    },
+    {
+      "path": "results/tables/stage5/final/vehicle_metrics.csv",
+      "change": "new",
+      "role_vi": "Bảng kết quả và provenance"
+    },
+    {
+      "path": "scripts/analyze_experiments.py",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "scripts/install_stage5.py",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "scripts/plot_experiments.py",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "src/greenwave/analysis/experimental.py",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "src/greenwave/visualization/experiment_plots.py",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    },
+    {
+      "path": "tests/test_stage5_analysis.py",
+      "change": "new",
+      "role_vi": "Mã nguồn/kiểm thử hoặc điểm bắt đầu"
+    }
+  ],
+  "preserved_existing": {
+    "STAGE4.md": "0075bcaa1fa7bae13f21e0959391ce0e4172cdea9c8b35dd69d2aecfa93ca9fc",
+    "requirements.txt": "61a315d507a41706fe5c0297dc0421c5278aa9810d8dab682ee266d92bc63598",
+    ".gitignore": "6402a90d16edce8798e74ea0221232abbeb8d7067f8fe7dfd763c471fbcbc02b",
+    "STAGE3.md": "8ce0e0ca0f957b26164594847cda0c6a7e3bc878a6ddc3f2cb8b87dff8f431ba",
+    ".gitattributes": "2cccfb1df4b911b7cd497346c6a0d8153bd2737d56693bc324bb4e3b364aae0e",
+    "scripts/preview_offsets.py": "6e1c8c7606756814e2f83e75d858e9679400f82e72252cd4ae8563409316eeb5",
+    "scripts/install_stage3.py": "e069d0cc1a529ed3d3fbc6d81cc300b341464b423784ca825016609927e53fde",
+    "scripts/build_scenarios.py": "8a989c03f8a95083b6672844f5e40d774831a7104072e0dc9f58d8972d841de0",
+    "scripts/verify_plans.py": "c13234538735a71de9a079c6c677ad3734cac7867e32b77bdfc24c28f814eac1",
+    "scripts/plot_signal_schedule.py": "4d724b5f603d63d7f93145d1537f0bb60ac782c0f5dde10fa99ba231a305d834",
+    "scripts/install_stage4.py": "729f14833126c1b008fe5d43f82030fac161a753b17b1350fc9b4e63b1423d8e",
+    "scripts/run_plan.py": "5d60211ff1c1e84a2b8a61e90d62cbc79737ab1f1d1e64ea67c7f6786a34c45c",
+    "scripts/run_scenario.py": "155251aae7ea15fd3536b635cd1ce94ce32d9150f19f50191e4135be53bc6402",
+    "scripts/run_sample.py": "a8bb141c11b18792a03d485f2d09602b364a58fcc535f2e9fa49fc8a81cdef1c",
+    "scripts/run_experiments.py": "606e9e2251e3506c771275bce584dfb7f46426b72d946d1b5493af25fc6fa5b6",
+    "scripts/build_plans.py": "9715b75a9b330fe90edce627df2aa8af8087e38bc3dfe20331e7fd7ad637b362",
+    "scripts/validate_sample.py": "3b6212451f8004c05988cc464116b54b2511f8a7162f93b050b84882b0e367e7",
+    "scripts/check_environment.py": "b9f799ae9d9cae2ce333da8191b51a44d8eb3a76dfdd4ba21219a78b3c791661",
+    "scripts/build_network.py": "9a3dba749d753d9caeaf51627af1620320613b8ce1d43e3ead14e29e7b123e64",
+    "scripts/verify_scenarios.py": "d726b4c215e9563e55683c76b875a728aed0f625a6120a826acd775df9e7c9ea",
+    "simulation/README.md": "f99cdbc814a9886e64ddf3df5e9d94d70eda5825832d5201d12288400c330510",
+    "config/network.json": "700121fb4926d8e5dd21f8e73892582e7253fad21017077d2cfc0046f14363cf",
+    "config/signals.json": "8721524ab1b1db9172ec160f714fcf495f70b6b07ff2844000ba68958657fae3",
+    "config/experiments.json": "a3b565743f112fdf1f992864b08b1c7bad77fdf86bb08668de83be80617fb596",
+    "config/stage4-experiments.json": "ffd391dc50bbd73f23e203deffb02700df390dbbb24de8afe11c79b0cf0fd950",
+    "tests/test_sumo_model.py": "0bcd201f805d70ef6fec5c1364a701e590c550344a7b27c941c9ef1e3a2aefdb",
+    "tests/test_scenarios.py": "84cc0739b2ec7eccfb33c0ad0a575fc0704c6e360226fb4c514525f0d7383223",
+    "tests/test_offset.py": "a3fa7923166c1b7875ba98bde69a91f385193393f97833811678cb858de7f322",
+    "tests/test_fixed_plans.py": "9c3163bf1dc3a946796239311faef619105484901b91a7c7c1f110abf432483b",
+    "tests/test_metrics.py": "8fe03b77316d7aff760451d7d08e27cc3f02a814592eef0f1ace6d69a06bf1af",
+    "docs/algorithm.md": "462542d044e56d53d46f700651e38270c49087e051511c6a39be05602c2fdca3",
+    "docs/stage2-files.txt": "7cf951bb948fea12adfdd4281c64d3d5f5900c587811a171954a8146f923f460",
+    "docs/stage2-validation.md": "5724ebf5fd567e4a0e569276b7ba87a8a69c7f1cbbc9865273fd72e77e45c83c",
+    "docs/setup.md": "7f02594d78486b7c6d02cc57f9f138cf59d7b564d5c016863a93225dae1e48ff",
+    "docs/requirements.md": "380732be9ef4c67757c84b473e194fa635c6d8aca00be7edd6116977127be064",
+    "docs/stage4-windows.md": "b0f56ffbcc792e77c959cc73f5601c34f58020ed06827a2a16f53440b8198b31",
+    "docs/stage3-windows.md": "a8a7db4020765f36480c4724c5c05bcdf02cdedc99c4ecb5caa3161170b6f48a",
+    "docs/report-outline.md": "c46c9555cf94309672fbd9509d28d28de7de769da6210d3ab2b1e4c9f810e81a",
+    "docs/stage3-changes.md": "6e5f9fa815eac06e1a39433080ba49849e2208ed62481c4b7b5db03b34af8f56",
+    "docs/stage4-readme-section.md": "9bf46fb050a10de3178f7ddd1f6210989bf5aadb38b617b97a77226cf0f4797f",
+    "docs/theory-summary.md": "af17829d8106bcf17fc9a063f53955a62d5b2855b0b71a097d8341e772f5ad9f",
+    "docs/git-workflow.md": "c1da93b7322455ffbf9ec2aee7bcfe089af2d1a8a7224dbb976dcfcf252017b2",
+    "docs/test-plan.md": "3089a898d263e758a9a0ea49b255e0fbe38409cc020512e9e4612f90eb187dc2",
+    "docs/stage4-demand-generation.md": "271f62a81e37c11da24fa13c28861451ea438a9fb7687380c3f11c0728dd809d",
+    "docs/stage2-windows.md": "e52b43dcd712b1db867dae290297b77779643e0622ce535c35c0c7a49e3b9241",
+    "docs/stage3-algorithm.md": "d189e191b4f0e69b9445395c7007fc9569e7a7697842943d435bd12f322e2ce1",
+    "docs/experiment-plan.md": "7027823acf8d40076e308e1a199c683a466c8bd0b511f43c5783e683258bd895",
+    "docs/architecture.md": "883892ac42b80d152de3fca4dd7b89857cc53a9daff1e7fc80c8df2bcf190cd7",
+    "docs/stage4-file-manifest.json": "56442b03c7a145cfe26b1f8463a80344b141893bab3c20409158267bd99a61e0",
+    "docs/stage4-validation.md": "d3a053e590d0e54b69c438459de772fdc23c3be393a830575800320eb25c673a",
+    "docs/stage4-scenario-design.md": "0b517dd95bb68a2f630f8a831007388aec6ad0ba655a342b0122365dbd36d1cc",
+    "docs/stage3-file-manifest.json": "dc385ddfaf54aff2e1c97c0c2262a1c170ecd16542238da4c1587704c9b8cb07",
+    "docs/stage3-validation.md": "5b1ed4efc36121b61304b316bbdc107490f4158b6a7ce9b1a9d6bf8c9dbb446c",
+    "simulation/signals/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/signals/baseline.add.xml": "33e3f52f340bb0c3cddaaf331214c06f1c24b52b0ba30af3a55b0f81b201c0ad",
+    "simulation/signals/fixed.add.xml": "f2f93d75b9467b100773c8eb105431a99157829bf797c57ee9f9d8ebb1f829db",
+    "simulation/signals/greenwave.add.xml": "6b027d178bcb27903bb38d053cfa815977a14fce7865f18cdc425d7c337bb274",
+    "simulation/signals/README.md": "a5b79bf601315ea57623340ccc90d2fe8316dafefe845393a9db9999536f1e70",
+    "simulation/scenarios/greenwave.sumocfg": "0f063f79095d311285e11fbb5fd1c1d5db3b04df718957dba9a6b0b4fc05d29f",
+    "simulation/scenarios/sample.sumocfg": "e54153d179a8aa91276c0714bc704d9d6fbf4aa710a1e1867f7093756f1c6cf1",
+    "simulation/scenarios/baseline.sumocfg": "4844a762667e726bb135bdc923de2ae1c6e319b5fcd584ab1ebdf6456cad8ce5",
+    "simulation/routes/source/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/routes/source/sample.rou.xml": "1f90b2b6bec2240b56c345f7cb37eba82dd73f9064d111973b62cda4986500bb",
+    "simulation/routes/generated/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/network/source/corridor.con.xml": "1b5682caf7f792d1fa65f08c166e436b92ec786199ea17c783c4c85db7f31710",
+    "simulation/network/source/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/network/source/corridor.nod.xml": "596f1e41b9657690934a847e678c918181fe23bf166a9bc3086bd1542a129e65",
+    "simulation/network/source/corridor.edg.xml": "501ee0efc343387dfcad4154d53d884f331b64ab07c5efda682fe3d2fdeb1781",
+    "simulation/network/generated/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simulation/network/generated/corridor.net.xml": "9886f56b59be44dcc623139bc493f479cf2d49809c48b739aa1383102be50b5c",
+    "simulation/scenarios/experiments/medium_baseline_seed22.sumocfg": "8f8d514621461e387a9c40beb3ee598874c8f0d4e8c23fe32fb84b4d08432104",
+    "simulation/scenarios/experiments/medium_baseline_seed11.sumocfg": "b1234aaf46586e4054003fbb1008d10ac03384fdc99d0e44ffc99dd2b1e1b309",
+    "simulation/scenarios/experiments/medium_greenwave_seed11.sumocfg": "c1e8d9b30e38c76436f4f054917e4fbee8a21bf74136d6a7a6a1cd01088ae8b5",
+    "simulation/scenarios/experiments/high_greenwave_seed33.sumocfg": "4fd0142a5ab9a464834305d3014bef81e3c763b983948102f97526ff556e5aa2",
+    "simulation/scenarios/experiments/high_baseline_seed22.sumocfg": "4e46fa7ce40b1d51706fde4628cf8e7ef842bb168552175e27ff586e1c90bd93",
+    "simulation/scenarios/experiments/low_greenwave_seed33.sumocfg": "9db9c8d643777440b9e348648808cc9d0f0cb062f31a32a17eb953ede9d69052",
+    "simulation/scenarios/experiments/low_baseline_seed22.sumocfg": "5444bbfa709b6b06ec1aeab92005f03bed5a374d80fc845dc3a2c62eb25a622b",
+    "simulation/scenarios/experiments/high_baseline_seed11.sumocfg": "79cb17746e0b7ff9224ec7fe75ab22a3d560906343837c69de90df22b5ba70c1",
+    "simulation/scenarios/experiments/high_baseline_seed33.sumocfg": "4abb3cb85c5d60bf0dd22297f33fe39b0a2aded533784f35dbc19c0f4aaae9f9",
+    "simulation/scenarios/experiments/medium_greenwave_seed22.sumocfg": "75c47f2f22bddfebd5af8b1cf9618a13aedab88b3371d9948385542adcd5a53f",
+    "simulation/scenarios/experiments/low_baseline_seed33.sumocfg": "0243fc39dc3e909737c117126f75cfbc6b474f9ccadb56d01a59a337623e7fc1",
+    "simulation/scenarios/experiments/low_baseline_seed11.sumocfg": "ef67edd3a71efab7bf697b4a6ebe7a695bdbe5bd953bb4e05f3ddcac37fa3a10",
+    "simulation/scenarios/experiments/medium_baseline_seed33.sumocfg": "9b4348f32f8ee96cca444061a36250e4a049ca3c1d41815786f99f1dfb85bd20",
+    "simulation/scenarios/experiments/medium_greenwave_seed33.sumocfg": "68e74607dfdc2c05f313cd60add020c0454fda7c47511e7ed1fd96d578efaaf4",
+    "simulation/scenarios/experiments/low_greenwave_seed11.sumocfg": "5834b4d8fd7a585c3054dd428f5a2dc6c6bd4351c76ee8ef2171943355dad66c",
+    "simulation/scenarios/experiments/high_greenwave_seed11.sumocfg": "b98f4c2820096b395a60eaac13a508f6fb129286c271e94906a1f29bb865fd5f",
+    "simulation/scenarios/experiments/low_greenwave_seed22.sumocfg": "645d61d3c0f137da8d74f7edcb9d2e930b00c998b75e3ef3d505422fa8972a21",
+    "simulation/scenarios/experiments/high_greenwave_seed22.sumocfg": "bc5523153f29f1feb89a2a65f85f09d31b6551f6898889e547b43012e4b18ad5",
+    "simulation/scenarios/generated/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    ".github/workflows/ci.yml": "52581967558c99947f737108c07736b52d89fb159a8669a97f3adfc7edb1d2a6",
+    "data/processed/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/input/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/figures/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/raw/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/tables/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/greenwave/__init__.py": "813f92f696995a9c04a9d003290e989c262c61bff8932d6a07b90ed7747d9fd6",
+    "src/greenwave/simulation/scenarios.py": "83ce2e925165524b07a5c152bf0793d459452b1b4d9cd37978442652cef0762e",
+    "src/greenwave/simulation/experiments.py": "ef076608aeccdcb8af1883f0789d905b50ac788bdb7f6ad550f9c20b0dc84249",
+    "src/greenwave/simulation/scenario_audit.py": "682ee5151d69664e4685e259c48a06316d1681091d9430b3d94d492a2bdd0ac8",
+    "src/greenwave/simulation/model.py": "1efe6d551925de71b016fb4dc11944e6ad10eeba4407b6af8f0caf2838d8671c",
+    "src/greenwave/simulation/README.md": "853e772eb2b67825154f898f4d974f9f25b231a8081e9ad36627f3925e5b56ff",
+    "src/greenwave/simulation/plan_validation.py": "5823f6322c8073eda32b4a658e617db18f24a6632858916d40acdc2c877767cd",
+    "src/greenwave/simulation/validation.py": "96ad30f833d5222621abe7e20838fc060233506a039eb79ce60cf323e835bf4e",
+    "src/greenwave/visualization/README.md": "95736b778f56064d7b3a28af8d8fef354eb5afd8ce06f1f858abb43d68cd5bcf",
+    "src/greenwave/analysis/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/greenwave/analysis/metrics.py": "8aa7dc3eeb74174b2b31e85001852e0707f83692c94014d11c5dd36e9f178702",
+    "src/greenwave/controllers/fixed_plans.py": "110925126d8a646dfb836f31369bea14625b40c065f1eb2c3abb6dd3c6bdf5b4",
+    "src/greenwave/controllers/README.md": "9ff58aa09a71a7775bfe262bed194e03a980e49e25b4a32fb4abb783528a5f79",
+    "src/greenwave/algorithms/offset.py": "f2faf08a3e3e31e18d263d624fd6332fe602121eeb62aefe80d6999e1872c67a",
+    "src/greenwave/algorithms/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/stage4-evidence/raw-runs.zip": "37c3f9d1e7d25d007bd19189d0b99e152e4905d363398ff292d8300a41a3d8e0",
+    "docs/stage4-evidence/tests.txt": "ef20baea16407fe0c67fb940acdd3162a8d68a3e1c5a1f0fbdbce885155dc3db",
+    "docs/stage4-evidence/audit.json": "ec5de158536bfdc96601c6341f817f44b81d73cca8eca47dba82ac5c1575921e",
+    "docs/stage4-evidence/summary.json": "4d6d5972ab04bfebe02c764e493862ea1928a95c76b10c6d0bc96cfe625b850f",
+    "docs/stage4-evidence/validation-table.csv": "9008a11449b27778ba96845aa5d1acc38c6a0c0357dee1299761dafa6ada24cb",
+    "docs/stage3-evidence/greenwave-tls.csv": "d2c3d5fe71174236cdbef4d413e28d290d52a444711eed87c3c6e09ac77dc303",
+    "docs/stage3-evidence/time-space.svg": "61c0072d4558bb17a7aeba9524a7227fe139d169ec02dbe08d1dc6d3f8d9c571",
+    "docs/stage3-evidence/verification.json": "2a216a910490e417bea11451a0b82601b1ded9c958b9a9b9c7dddac4848cfd00",
+    "docs/stage3-evidence/baseline-green-starts.csv": "fdf581ee07bd64b13d34a879a4faed000685437fd9ea5d8df194f2647613641f",
+    "docs/stage3-evidence/baseline-tls.csv": "51de37c81bb40dcb46349e758d485512efe69a1c8224fa5d8e61d62f023d8a10",
+    "docs/stage3-evidence/tests.txt": "3354cdb547e07acc1ac4c5f5d2c95fc032df06c07dd78b6e503042dd09ae7999",
+    "docs/stage3-evidence/time-space.png": "4cbf936c58eabf4a016a12174e8c2d51e6a6eec751dde2ee0dc5a800574d1e5f",
+    "docs/stage3-evidence/greenwave-green-starts.csv": "528d585a1eb8f5e600e69c921fa74cbabb31055f7ba8c21f9da09b682d787b65"
+  },
+  "readme_policy": "append bounded STAGE5 block; preserve other content"
+}
