@@ -1,0 +1,51 @@
+test_build_preserves_stage2_and_is_deterministic (test_fixed_plans.PlanTests.test_build_preserves_stage2_and_is_deterministic) ... ok
+test_conflicting_green_is_rejected (test_fixed_plans.PlanTests.test_conflicting_green_is_rejected) ... ok
+test_incorrect_offset_is_rejected (test_fixed_plans.PlanTests.test_incorrect_offset_is_rejected) ... ok
+test_invalid_inputs_and_non_grid_offset_rejected (test_fixed_plans.PlanTests.test_invalid_inputs_and_non_grid_offset_rejected) ... ok
+test_offsets_hand_calculation_and_units (test_fixed_plans.PlanTests.test_offsets_hand_calculation_and_units) ... ok
+test_phase_boundaries_independent_table (test_fixed_plans.PlanTests.test_phase_boundaries_independent_table) ... ok
+test_stale_network_geometry_rejected (test_fixed_plans.PlanTests.test_stale_network_geometry_rejected) ... ok
+test_static_xml_and_four_offsets (test_fixed_plans.PlanTests.test_static_xml_and_four_offsets) ... ok
+test_two_plans_in_sumo_and_reproducibility (test_fixed_plans.PlanTests.test_two_plans_in_sumo_and_reproducibility) ... ok
+test_unequal_inputs_are_rejected (test_fixed_plans.PlanTests.test_unequal_inputs_are_rejected) ... ok
+test_increase_is_negative_reduction (test_metrics.MetricsTests.test_increase_is_negative_reduction) ... ok
+test_mean (test_metrics.MetricsTests.test_mean) ... ok
+test_reduction (test_metrics.MetricsTests.test_reduction) ... ok
+test_four_junction_offsets (test_offset.OffsetTests.test_four_junction_offsets) ... ok
+test_invalid_speed (test_offset.OffsetTests.test_invalid_speed) ... ok
+test_offset_modulo_cycle (test_offset.OffsetTests.test_offset_modulo_cycle) ... ok
+test_travel_time (test_offset.OffsetTests.test_travel_time) ... ok
+test_background_same_across_levels (test_scenarios.ScenarioTests.test_background_same_across_levels) ... ok
+test_config_fairness_and_seed_mismatch (test_scenarios.ScenarioTests.test_config_fairness_and_seed_mismatch) ... ok
+test_conflict_refuses_all_writes (test_scenarios.ScenarioTests.test_conflict_refuses_all_writes) ... ok
+test_duplicate_vehicle_or_bad_route_rejected (test_scenarios.ScenarioTests.test_duplicate_vehicle_or_bad_route_rejected) ... ok
+test_incomplete_metadata_is_rejected (test_scenarios.ScenarioTests.test_incomplete_metadata_is_rejected) ... ok
+test_invalid_seed_and_rate_rejected (test_scenarios.ScenarioTests.test_invalid_seed_and_rate_rejected) ... ok
+test_no_source_files_modified_and_idempotent_build (test_scenarios.ScenarioTests.test_no_source_files_modified_and_idempotent_build) ... ok
+test_output_directory_never_overwritten (test_scenarios.ScenarioTests.test_output_directory_never_overwritten) ... ok
+test_pending_and_cohort_boundaries (test_scenarios.ScenarioTests.test_pending_and_cohort_boundaries) ... ok
+test_real_sumo_low_and_short_drain_high (test_scenarios.ScenarioTests.test_real_sumo_low_and_short_drain_high) ... ok
+test_sealed_output_tampering_is_detected (test_scenarios.ScenarioTests.test_sealed_output_tampering_is_detected) ... ok
+test_seed_reproducible_and_different (test_scenarios.ScenarioTests.test_seed_reproducible_and_different) ... ok
+test_three_levels_and_both_plans (test_scenarios.ScenarioTests.test_three_levels_and_both_plans) ... ok
+test_unique_ids_order_time_windows (test_scenarios.ScenarioTests.test_unique_ids_order_time_windows) ... ok
+test_xml_hash_excludes_comment_not_traffic_duration (test_scenarios.ScenarioTests.test_xml_hash_excludes_comment_not_traffic_duration) ... ok
+test_different_requested_set_rejected (test_stage5_analysis.MetricsTests.test_different_requested_set_rejected) ... ok
+test_duplicate_trip_rejected (test_stage5_analysis.MetricsTests.test_duplicate_trip_rejected) ... ok
+test_duration_mismatch_rejected (test_stage5_analysis.MetricsTests.test_duration_mismatch_rejected) ... ok
+test_hand_calculated_metrics_and_filter (test_stage5_analysis.MetricsTests.test_hand_calculated_metrics_and_filter) ... ok
+test_incomplete_pair_has_no_primary_reduction (test_stage5_analysis.MetricsTests.test_incomplete_pair_has_no_primary_reduction) ... ok
+test_missing_batch_clear_failure (test_stage5_analysis.MetricsTests.test_missing_batch_clear_failure) ... ok
+test_missing_unfinished_not_zero (test_stage5_analysis.MetricsTests.test_missing_unfinished_not_zero) ... ok
+test_paired_hand_50_percent (test_stage5_analysis.MetricsTests.test_paired_hand_50_percent) ... ok
+test_plot_real_output (test_stage5_analysis.MetricsTests.test_plot_real_output) ... ok
+test_real_sealed_data_csv_and_no_overwrite (test_stage5_analysis.MetricsTests.test_real_sealed_data_csv_and_no_overwrite) ... ok
+test_reduction_zero_negative_and_empty (test_stage5_analysis.MetricsTests.test_reduction_zero_negative_and_empty) ... ok
+test_invalid_cycle_is_rejected (test_sumo_model.ModelTests.test_invalid_cycle_is_rejected) ... ok
+test_structure_routes_and_signal_conflicts (test_sumo_model.ModelTests.test_structure_routes_and_signal_conflicts) ... ok
+test_sumo_integration (test_sumo_model.ModelTests.test_sumo_integration) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 40.013s
+
+OK
