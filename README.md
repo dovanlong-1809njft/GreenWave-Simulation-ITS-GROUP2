@@ -5,7 +5,7 @@
 | 1   | Văn Hoàng             |              |  
 | 2   | Đỗ Văn Long           | 054205002454 | 
 | 3   | Lê Minh Như           |              |
-| 4   | Hoàng Minh Tâm        |              | 
+| 4   | Hoàng Công Minh Tâm   | 045206008142 | 
 | 5   | Huỳnh Nguyễn Bảo Long |              | 
 
 # ITS GreenWave Simulation – Đề tài 9 
